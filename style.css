@@ -1,0 +1,130 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Times New Roman', serif;
+    background-color: #ADD8E6; /* light blue background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url('./PAssword.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(2px);
+
+  }
+  
+  h2 {
+    margin: 10px 0 20px;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .container {
+    background-color: rgba(12, 194, 194, 0.5); /* pastel pink background */
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+  }
+  
+  .result_container {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .result {
+    font-size: 18px;
+    font-style: italic;
+    margin-right: 10px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn {
+    border: none;
+    background-color: rgba(255, 224, 230, 0.5); /* pastel pink background */
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn:hover {
+    background-color: rgba(10, 1, 3, 0.7); /* pastel pink background on hover */
+  }
+  
+  .result_container .btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+  }
+  
+  .setting label {
+    font-size: 18px;
+    font-style: italic;
+    margin-right: 10px;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .setting input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    accent-color: #fff;
+  }
+  
+  .btn-large {
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-style: italic;
+    background-color: rgba(255, 224, 230, 0.5); /* pastel pink background */
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn-large:hover {
+    background-color: rgba(255, 224, 230, 0.7); /* pastel pink background on hover */
+  }
